@@ -1,0 +1,114 @@
+/* 8thWall pop start */
+.prompt-box-8w {
+  background-color: white !important;
+  color: #000 !important;
+  background: url("./images/popupBackground.svg") no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+
+.prompt-button-8w {
+  border-radius: 3.125rem !important;
+  color: #333;
+  border: .125rem solid #E7E7E7;
+  background-color: transparent !important;
+}
+
+.button-primary-8w {
+  border: none !important;
+  color: #fff;
+  background-color: #004B8B !important;
+}
+
+.vrPopTitle {
+  font-size: 1.25rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.vrPopContent {
+  font-size: .875rem;
+  color: #333;
+}
+
+#cameraPermissionsErrorApple .bottom-message {
+  display: flex;
+  width: 100vw;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  padding: 0;
+}
+
+#cameraPermissionsErrorApple .bottom-message .foreground-image {
+  width: 3.75rem;
+  transform: rotate(130deg)
+}
+
+#loadingContainer,
+#loadingContainer #loadBackground {
+  -webkit-backdrop-filter: blur(.625rem);
+  backdrop-filter: blur(.625rem);
+  background-color: transparent;
+}
+
+#requestingCameraPermissions {
+  background-color: transparent !important;
+}
+
+.start-ar-button {
+  font-size: 17px;
+}
+
+#linkOutViewAndroid {
+  background-color: transparent !important;
+}
+
+
+#copyLinkViewAndroid {
+  -webkit-backdrop-filter: blur(.625rem);
+  backdrop-filter: blur(.625rem);
+  background-color: transparent !important;
+}
+
+#copyLinkViewAndroid .error_text_header_title {
+  color: #ffff;
+  font-size: 1.9375rem;
+  margin-top: 7.5rem;
+  line-height: 1.3;
+}
+
+#copyLinkViewAndroid .error_text_header_tips {
+  color: #fff;
+  margin-top: 1.5rem;
+  padding: 0 2.5rem;
+}
+
+#copyLinkViewAndroid #copy_link_android {
+  background-color: #fff;
+}
+
+/* 8thWall pop end */
+
+
+
+/* mui start */
+
+.mui-toast-container {
+  top: 90px;
+  bottom: 0;
+}
+
+.mui-popup-backdrop {
+  -webkit-backdrop-filter: blur(.625rem);
+  backdrop-filter: blur(.625rem);
+  background-color: transparent !important;
+}
+
+.mui-toast-message{
+  padding: 10px 10px !important;
+}
+
+/* mui end */
